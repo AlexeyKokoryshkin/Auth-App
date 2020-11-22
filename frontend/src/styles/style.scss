@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+    transition: all 1.0s ease;
+    button {
+        display: inline-block;
+        margin: 0 auto;
+        width: 99px;
+        height: 37px;
+        color: rgb(29, 18, 18);
+        font-weight: 700;
+        text-decoration: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding: 0.5em 2em;
+        outline: none;
+        border: 2px solid;
+        border-radius: 1px;
+        transition: 0.4s;
+        &:hover {
+            background: #19202e;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+body {
+    background-color: #19202e;
+    section,
+    .form-container {
+        width: 90%;
+        margin: 0 auto;
+        background-color: #f7f8fa;
+        margin-top: 10%;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        flex-flow: column wrap;
+        height: 250px;
+        justify-content: space-evenly;
+        .b-login_ref {
+            a {
+                display: inline-block;
+                color: rgb(29, 18, 18);
+                font-weight: 700;
+                text-decoration: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                padding: 0.5em 2em;
+                outline: none;
+                border: 2px solid;
+                border-radius: 1px;
+                transition: 0.4s;
+                &:hover {
+                    background: #19202e;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .form-container {
+        .form-group {
+            input[type="email"],
+            input[type="password"] {
+                background: #fff;
+                border: none;
+                border-radius: 8px;
+                font-size: 15px;
+                font-family: "Raleway", sans-serif;
+                height: 35px;
+                width: 25.5%;
+                margin-bottom: 10px;
+                opacity: 1;
+                text-indent: 20px;
+                transition: all 0.2s ease-in-out;
+                box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+            }
+        }
+        
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+        background-color: #f7f8fa;
+        margin-top: 10%;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        height: 350px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 0 auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            li {
+                margin: 10px 0;
+                b {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
